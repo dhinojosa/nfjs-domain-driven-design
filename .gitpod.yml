@@ -5,4 +5,4 @@ tasks:
 vscode:
     extensions:
         - "vscjava.vscode-java-pack"
-        - "alexkrechik.cucumberautocomplete@2.20.0"
+        - "cucumberopen.cucumber-official"

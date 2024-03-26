@@ -3,7 +3,7 @@
 
     "extensions": [
         "vscjava.vscode-java-pack",
-        "alexkrechik.cucumberautocomplete"
+        "cucumberopen.cucumber-official"
     ],
 
     "postCreateCommand": "bash -lc \"sdk install java 17.0.2-tem\"",
