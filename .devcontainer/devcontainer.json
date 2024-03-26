@@ -1,14 +1,14 @@
 {
-    "image": "mcr.microsoft.com/vscode/devcontainers/universal:1-focal",
-
-    "extensions": [
-        "vscjava.vscode-java-pack",
-        "cucumberopen.cucumber-official"
-    ],
-
-    "postCreateCommand": "bash -lc \"sdk install java 17.0.2-tem\"",
-
-    "settings": {
-        "java.home": "/home/codespace/.sdkman/candidates/java/17.0.2-tem"
-    }
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "cucumberopen.cucumber-official"
+            ],
+            "settings": {
+                "java.jdt.ls.java.home": "/home/codespace/.sdkman/candidates/java/17.0.2-tem"
+            }
+        }
+    },
+    "postCreateCommand": "bash -lc \"sdk install java 17.0.2-tem < /dev/null\""
 }
