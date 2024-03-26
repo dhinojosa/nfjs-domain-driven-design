@@ -1,0 +1,8 @@
+tasks:
+    - name: Setup & Build
+      before: sdk install java 17.0.2-tem < /dev/null
+      init: mvn clean install -DskipTests=true
+vscode:
+    extensions:
+        - "vscjava.vscode-java-pack"
+        - "alexkrechik.cucumberautocomplete@2.20.0"
