@@ -1,6 +1,5 @@
 {
     "name": "Java Dev Container",
-    "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -12,5 +11,6 @@
                 "java.jdt.ls.java.home": "/root/.sdkman/candidates/java/current"
             }
         }
-    }
+    },
+    "postStartCommand": "bash -lc \"sdk install java 17.0.2-tem\""
 }
