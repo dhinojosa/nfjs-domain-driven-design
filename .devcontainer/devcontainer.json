@@ -1,0 +1,14 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:1-focal",
+
+    "extensions": [
+        "vscjava.vscode-java-pack",
+        "alexkrechik.cucumberautocomplete"
+    ],
+
+    "postCreateCommand": "bash -lc \"sdk install java 17.0.2-tem\"",
+
+    "settings": {
+        "java.home": "/home/codespace/.sdkman/candidates/java/17.0.2-tem"
+    }
+}
