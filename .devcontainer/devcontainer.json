@@ -5,7 +5,8 @@
         "vscode": {
             "extensions": [
                 "vscjava.vscode-java-pack",
-                "cucumberopen.cucumber-official"
+                "cucumberopen.cucumber-official",
+                "ms-azuretools.vscode-docker"
             ],
             "settings": {
                 "java.jdt.ls.java.home": "/root/.sdkman/candidates/java/current"
