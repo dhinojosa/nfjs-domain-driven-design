@@ -8,7 +8,7 @@
                 "ms-azuretools.vscode-docker"
             ],
             "settings": {
-                "java.jdt.ls.java.home": "/root/.sdkman/candidates/java/current"
+                "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current"
             }
         }
     },
