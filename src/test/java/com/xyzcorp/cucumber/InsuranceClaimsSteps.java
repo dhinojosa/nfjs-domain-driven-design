@@ -26,4 +26,9 @@ public class InsuranceClaimsSteps {
     public void claimWillBeFlaggedAs(String flag) {
         System.out.printf("We have %s flag", flag);
     }
+
+    @When("the claim is within {int} days of the auto accident")
+    public void the_claim_is_within_days_of_the_auto_accident(int i) {
+        // Write code here that turns the phrase above into concrete actions
+    }
 }
