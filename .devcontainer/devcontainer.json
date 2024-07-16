@@ -1,15 +1,16 @@
 {
     "name": "Java Dev Container",
-    "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
             "extensions": [
                 "vscjava.vscode-java-pack",
-                "cucumberopen.cucumber-official"
+                "cucumberopen.cucumber-official",
+                "ms-azuretools.vscode-docker"
             ],
             "settings": {
-                "java.jdt.ls.java.home": "/root/.sdkman/candidates/java/current"
+                "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current"
             }
         }
-    }
+    },
+    "postStartCommand": "bash -lc \"sdk install java 17.0.2-tem\""
 }
